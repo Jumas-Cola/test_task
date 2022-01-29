@@ -1,0 +1,21 @@
+{
+    "name": "jumas-cola/test_task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "JumasCola\\TestTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jumas Cola",
+            "email": "kbbyfl91@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "scripts": {
+        "migrate": "php src/Database/migrations.php"
+    }
+}

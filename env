@@ -1,0 +1,5 @@
+DB_DATABASE=php_project
+DB_HOST=db
+DB_USER=root
+DB_PASSWORD="wae4EeX@e}Go"
+APP_URL=http://localhost
